@@ -158,7 +158,7 @@ print(color)
 urlFRAME="http://"
 roadFRAME="格式是  X://XXXX//"
 def Quit():
-    i=messagebox.askquestion('make sure','Are you sure to quit')
+    i=messagebox.askquestion('确认','确定退出')
     if i=='yes':
         root.destroy()
     if i=='no': 
